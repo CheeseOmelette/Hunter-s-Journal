@@ -72,10 +72,12 @@ const JournalBody = () => {
         )}
 
         <footer className="credits">
-  <small>© Team Cherry.</small> 
-  <small>All rights belong to them.</small>
-  <small><b>Site made by CheeseOmelette</b></small>
+  <small>© Team Cherry. </small> 
+  <small>All rights belong to them. </small>
+      <small><b>Site made by CheeseOmelette.</b></small>
+
   <div className="social-links">
+    
     <a href="https://github.com/CheeseOmelette" target="_blank" rel="noopener noreferrer">
       GitHub
     </a>
