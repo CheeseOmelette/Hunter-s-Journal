@@ -210,16 +210,33 @@ html {
     flex-direction: row; 
     height: auto;
     position: absolute;
-    width: 80%;
-    top: 85%; 
-    left: 6%;
+    width: 85%;
+    top: 88%; 
+    left: 2.9%;
   }
+
+  .enemyList button {        
+    cursor: pointer;
+    overflow: hidden;   
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    flex-shrink: 0;        
+    padding: 0;  
+    width: auto;          
+    height: 60px;
+    border-radius: 50%;    
+
+}
+
+.enemyList button:hover {
+    transform: scale(1);  
+              
+}
 
   .enemyFile {
    position: absolute;
     width: auto;
     height: auto;
-    top: -1%;    
+    top: -5%;    
     font-size: 50%;       
     transform: translateX(-30.5%); 
    
@@ -231,7 +248,5 @@ html {
   }
 }
   
-
-
 
 
